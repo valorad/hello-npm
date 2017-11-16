@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/hello-npm-va.svg)](https://badge.fury.io/js/hello-npm-va)
+
 # hello-npm-va
 Test repo for uploading files to NPM
 
